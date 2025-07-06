@@ -1,5 +1,9 @@
 # AshPostgres context multi-tenancy migration error demo
 
+Latest schema change:
+
+`user.ex:67`: `global? true`
+
 ```
 mix ash.reset
 mix ash_postgres.generate_migrations --dev
